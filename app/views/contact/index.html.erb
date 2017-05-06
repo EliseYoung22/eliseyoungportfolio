@@ -1,0 +1,20 @@
+<div class="col-md-6">
+
+  <% if flash[:notice] %>
+      <div class="notice"><%= flash[:notice] %></div>
+    <% elsif flash[:warning] %>
+      <div class="alert alert-danger"><%= flash[:warning] %></div>
+    <% else %>
+  <% end %>
+</div>
+
+<div class="banner-image header text-align white-links">
+  <div class="column is-6 is-offset-3">
+    <h1 class="header-border center-text">Get In Touch</h1>
+      <%= simple_form_for :contact do |f| %>
+          <%= f.input :email, placeholder: 'type email here' %></li>
+          <%= f.input :message, placeholder: 'type message here', :as => :text %>
+          <%= f.button :submit, "Send" %>
+      <% end %>
+ </div>
+</div>
