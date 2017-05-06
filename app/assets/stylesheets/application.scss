@@ -26,3 +26,51 @@ $primary: white;
  background-repeat: no-repeat;
  height: 100vh;
 }
+.name-header {
+  text-align: center;
+  font-size: 130px;
+  font-family: 'Sacramento', cursive;
+  color: white;
+}
+.header-border {
+  border: 3px solid #F7484E;
+}
+.background-colour {
+  background-color: #292929
+}
+.pink-colour {
+  background-color: #F7484E;
+}
+.link-top {
+  margin-top: 80px;
+  margin-bottom: 50px;
+  margin-left: 50px;
+  border-bottom: 2px solid #F7484E;
+  color: #F7484E;
+  font-size: 20px;
+}
+.link-bottom {
+  margin-top: 70px;
+  margin-left: 50px;
+  border-top: 2px solid #F7484E;
+  color: #F7484E;
+  font-size: 20px;
+}
+.box {
+  background-color: transparent;
+  box-shadow: none;
+}
+.text-right{
+  text-align: right;
+}
+.vertical-line {
+  border-left: 2px solid #F7484E;
+}
+.header {
+  font-size: 60px;
+  font-family: 'Sacramento', cursive;
+  border-bottom: 2px solid #F7484E;
+}
+.margin-bottom {
+  margin-bottom: 100px;
+}
