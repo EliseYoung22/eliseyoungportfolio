@@ -43,35 +43,53 @@
 </div>
 
 <body>
-  <div class="column is-5 is-offset-1">
-    <div class="header" id="about">
-      <h1> About Me </h1>
+  <div class="container">
+    <div class="columns">
+      <div class="column is-6 margin-top">
+        <div class="header" id="about">
+          <h1> About Me </h1>
+        </div>
+        <div class="margin-bottom">
+          <p class="font-size">Hi, I’m Elise and I’m a wannabe web developer located in Sydney. I am currently studying at Coder Factory Academy and hope to become a full stack developer once I have finished. I want to code amazing and creative things!<br>
+          I have also obtained a Diploma of Business which had heavy focus in the fashion industry. When I'm not glued ot my computer I enjoy cooking, outdoor adventures and reading. </p>
+        </div>
+      </div>
+      <div class="column">
+        <img src="assets/monitor.png" height="70px" width="70px" id="monitor"/>
+        <img src="assets/book.png" height="70px" width="70px" id="book"/>
+        <img src="assets/bowl.png" height="70px" width="70px" id="bowl"/>
+        <img src="assets/dress.png" height="70px" width="70px" id="dress" />
+      </div>
     </div>
-    <div class="margin-bottom">
-      <p>Hi, I’m Elise and I’m a wannabe full stack web developer located in Sydney. I am currently studying at Coder Factory Academy and hope to become a full stack developer once I have finished. I want to code amazing and creative things!
-      I have also obtained a Diploma of Business which had heavy focus in the fashion industry. I have extensive customer service experience and enjoy developing stong client relationships </p>
+    <div class="columns">
+      <div class="column">
+        <img src="assets/ruby.png" height="70px" width="70px" id="ruby"/>
+        <img src="assets/html.png" height="70px" width="70px" id="html"/>
+        <img src="assets/css.png" height="70px" width="70px" id="css"/>
+        <img src="assets/js.png" height="70px" width="70px" id="js"/>
+      </div>
+      <div class="column is-6 is-offset-1">
+        <div class="header" id="skills">
+          <h2> Skills </h2>
+        </div>
+        <div class="margin-bottom">
+          <p class="font-size"> During my studies we have learn't Ruby, Ruby on Rails and Javascript. We are currently focussing on Node.js, React.js and MongoDB. I would love to become fluent in as many programming languages as possible!</p>
+        </div>
+      </div>
     </div>
-  </div>
-  <div class="column is-5 is-offset-7">
-    <div class="header" id="skills">
-      <h1> Skills </h1>
-    </div>
-    <div class="margin-bottom">
-      <p> I am currently learning Ruby, Ruby on Rails and Javascript. I would love to become fluent in as many programming languages as possible.</p>
-    </div>
-  </div>
-  <div class="column is-5 is-offset-1">
-    <div class="header" id="projects">
-      <h1> Previous Projects </h1>
-    </div>
-    <div class="margin-bottom">
-      <p>Down below is a timeline of the projects I have completed during my studies. These are my most notable pieces but feel free to check out more repositories on my <a href="https://github.com/EliseYoung22">GitHub</a> page.</p>
+    <div class="column is-6">
+      <div class="header" id="projects">
+        <h1> Previous Projects </h1>
+      </div>
+      <div class="margin-bottom">
+        <p class="font-size">Down below is a timeline of the projects I have completed during my studies. These are my most notable pieces but feel free to check out more repositories on my <a href="https://github.com/EliseYoung22">GitHub</a> page.</p>
+      </div>
     </div>
   </div>
 
   <div class="background-colour">
     <div class="container">
-      <div class="column is-8 is-offset-2">
+      <div class="column is-10 is-offset-1">
           <ul class="timeline">
             <li>
               <div class="timeline-badge"><i class="glyphicon glyphicon-credit-card"></i></div>
@@ -80,7 +98,7 @@
                   <h4 class="timeline-title">ATM</h4>
                 </div>
                 <div class="timeline-body">
-                  <p>Whilst studying I completed an application that simulated and ATM.<a href="https://github.com/EliseYoung22/CFA-ATM-terminal-app"> Click here to see my ATM on Github.</a></p>
+                  <p>Whilst studying I completed an application that simulated and ATM.<a class="white-links" href="https://github.com/EliseYoung22/CFA-ATM-terminal-app"><br> Check out my ATM on Github.</a></p>
                 </div>
               </div>
             </li>
@@ -91,7 +109,7 @@
                   <h4 class="timeline-title">Quiz</h4>
                 </div>
                 <div class="timeline-body">
-                  <p>In a group assignment we created a 2 person quiz that also got additional results from a google docs form.<a href="https://github.com/BinnyK/cfa-project-group-quiz">Click here to see our Quiz on Github.</a></p>
+                  <p>In a group assignment we created a 2 person quiz that also got additional results from a google docs form.<a class="white-links" href="https://github.com/BinnyK/cfa-project-group-quiz"><br>Check out our Quiz on Github.</a></p>
                 </div>
               </div>
             </li>
@@ -102,11 +120,10 @@
                   <h4 class="timeline-title">Zengarden</h4>
                 </div>
                 <div class="timeline-body">
-                  <p> During class we took on the Zengarden challenge. The challenge was to decorate the Zengarden html using CSS.<a href="https://github.com/EliseYoung22/Zengarden/commit/035b1bc410ae708510b7cca83ca4f0092f362d3c">Click here to see my Zengarden GitHub.</a></p>
+                  <p> During class we took on the Zengarden challenge. The challenge was to decorate the Zengarden html using CSS.<a class="white-links" href="https://github.com/EliseYoung22/Zengarden/commit/035b1bc410ae708510b7cca83ca4f0092f362d3c"><br>Check out my Zengarden GitHub.</a></p>
                 </div>
               </div>
             </li>
-
             <li class="timeline-inverted">
               <div class="timeline-badge"><i class="glyphicon glyphicon-education"></i></div>
               <div class="timeline-panel">
@@ -114,7 +131,7 @@
                   <h4 class="timeline-title">My Portfolio</h4>
                 </div>
                 <div class="timeline-body">
-                  <p>I created this portfolio you're looking at. I used a mixture of Ruby on Rails, HTML/CSS and Javascript to build it.<a href="https://github.com/EliseYoung22/Zengarden/commit/035b1bc410ae708510b7cca83ca4f0092f362d3c">Click here to see my Portfolio details on GitHub.</a></p>
+                  <p>I created this portfolio you're looking at. I used a mixture of Ruby on Rails, HTML/CSS and Javascript to build it.<a class="white-links" href="https://github.com/EliseYoung22/eliseyoungportfolio"><br>Check out my Portfolio details on GitHub.</a></p>
                 </div>
               </div>
             </li>
@@ -122,10 +139,10 @@
               <div class="timeline-badge"><i class="glyphicon glyphicon-picture"></i></div>
               <div class="timeline-panel">
                 <div class="timeline-heading">
-                  <h4 class="timeline-title">Careforcaring</h4>
+                  <h4 class="timeline-title">CareforCaring</h4>
                 </div>
                 <div class="timeline-body">
-                  <p> During class we took on the Zengarden challenge. The challenge was to decorate the Zengarden html using CSS.<a href="https://github.com/EliseYoung22/Zengarden/commit/035b1bc410ae708510b7cca83ca4f0092f362d3c">Click here to see my Zengarden GitHub.</a></p>
+                  <p> For our second major project we were asked to create an app for a 2 sided platform. I chose to focus on a social-cause and developed CareforCaring.<a class="white-links" href="https://github.com/EliseYoung22/CFA-Major-Project-2"><br>Check out CareforCaring on Github.</a></p>
                 </div>
               </div>
             </li>
