@@ -19,6 +19,7 @@ $primary: white;
 
 .banner-image {
   background-color: #292929;
+
  max-width: 100%;
  height: auto;
  background-size: 100% 100%;
@@ -36,7 +37,7 @@ $primary: white;
   border: 3px solid #F7484E;
 }
 .background-colour {
-  background-color: #292929
+  background-color: #292929;
 }
 .pink-colour {
   background-color: #F7484E;
@@ -73,4 +74,7 @@ $primary: white;
 }
 .margin-bottom {
   margin-bottom: 100px;
+}
+a {
+  color: grey;
 }
