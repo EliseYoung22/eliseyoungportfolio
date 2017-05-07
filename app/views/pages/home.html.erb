@@ -3,10 +3,10 @@
 <div class="banner-image">
   <div class="columns">
     <div class="column is-2 is-offset-1">
-      <div class="box">
+      <div class="box animated  zoomIn">
         <div class="link-top">
           <h1><a data-scroll href="#about"> About</a> </h1>
-          <div class="frame-left-top">
+          <div class="frame-left-top animated zoomIn">
           </div>
         </div>
       </div>
@@ -81,7 +81,7 @@
           <h2> Skills </h2>
         </div>
         <div class="margin-bottom">
-          <p class="font-size"> During my studies we have learn't Ruby, Ruby on Rails and Javascript. We are currently focussing on Node.js, React.js and MongoDB. I would love to become fluent in as many programming languages as possible!</p>
+          <p class="font-size"> During my studies we have learn't Ruby, Ruby on Rails and Javascript. We are currently focussing on Node.js and React.js. I would love to become fluent in as many programming languages as possible!</p>
         </div>
       </div>
     </div>
@@ -160,10 +160,13 @@
     </div>
   </div>
   <div class="icons">
-    <a class="icon" href="https://www.facebook.com"><img src="<%=asset_path 'facebook-logo.png'%>" height= "70px" width= "70px" />
-    <a class="icon" href="https://github.com/EliseYoung22"><img src="<%=asset_path 'github-sign.png'%>"
-    height= "70px" width= "70px" />
-    <a class="icon" href="https://www.instagram.com/"><img src="<%=asset_path 'instagram.png'%>"
-    height= "60px" width= "60px" />
+    <div class="columns">
+      <div class="column is-6 is-offset-2">
+      <a href="https://www.facebook.com"><img src="<%=asset_path 'facebook-logo.png'%>" height= "60px" width= "60px" id="fb"/>
+      <a href="https://github.com/EliseYoung22"><img src="<%=asset_path 'github-sign.png'%>"
+      height= "60px" width= "60px" id="git"/>
+      <a href="https://www.instagram.com/"><img src="<%=asset_path 'instagram.png'%>"
+      height= "60px" width= "60px" />
+    </div>
   </div>
 </body>
