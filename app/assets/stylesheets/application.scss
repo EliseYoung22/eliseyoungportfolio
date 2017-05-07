@@ -20,13 +20,11 @@ $primary: white;
 
 .banner-image {
   background-color: #292929;
-   max-width: 100%;
-   height: 100vh;
- // height: auto;
- // background-size: 100% 100%;
+  max-width: 100%;
+  height: auto;
+  // background-size: 100% 100%;
  // background-position: center center;
  // background-repeat: no-repeat;
- // height: 100vh;
 }
 .name-header {
   text-align: center;
@@ -45,18 +43,37 @@ $primary: white;
 }
 .link-top {
   margin-top: 80px;
-  margin-bottom: 50px;
   margin-left: 50px;
-  border-bottom: 2px solid #F7484E;
   color: #F7484E;
-  font-size: 20px;
+  font-size: 25px;
+}
+.frame-left-top {
+  border-top: 2px solid #F7484E;
+  border-left: 2px solid #F7484E;
+  height: 80px;
+}
+.frame-right-top {
+  border-top: 2px solid #F7484E;
+  border-right: 2px solid #F7484E;
+  height: 80px;
+}
+.frame-left-bottom {
+  border-bottom: 2px solid #F7484E;
+  border-left: 2px solid #F7484E;
+  height: 80px;
+}
+.frame-right-bottom {
+  border-bottom: 2px solid #F7484E;
+  border-right: 2px solid #F7484E;
+  height: 80px;
 }
 .link-bottom {
-  margin-top: 70px;
   margin-left: 50px;
-  border-top: 2px solid #F7484E;
   color: #F7484E;
-  font-size: 20px;
+  font-size: 25px;
+}
+.header-bottom-margin {
+  margin-bottom: 90px;
 }
 .box {
   background-color: transparent;
@@ -96,7 +113,7 @@ a {
   margin-left: 10px;
 }
 #ruby {
-  margin-left: 100px;
+  margin-left: 70px;
   margin-top: 70px;
   margin-right: 20px;
 }
@@ -118,4 +135,14 @@ h2 {
 }
 .center-text {
   text-align: center;
+}
+.icons {
+  white-space: nowrap;
+  background-color: transparent;
+  width: 200px;
+  margin: 0 auto;
+}
+.icon {
+  margin-left: 40px;
+  padding-top: 50px;
 }
